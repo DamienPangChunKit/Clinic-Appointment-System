@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_homepage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_color_1">
+
+        <ImageView
+            android:id="@+id/bgCovid"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/gradient_color_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Daily Covid Cases in Malaysia"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/bgCovid"
+            app:layout_constraintTop_toTopOf="@+id/bgCovid" />
+
+        <TextView
+            android:id="@+id/tvDailyCovidCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/open_sans"
+            android:text="..."
+            android:textSize="35dp"
+            android:textColor="#FCFF00"
+            app:layout_constraintBottom_toTopOf="@+id/imgMoreCovidInfo"
+            app:layout_constraintEnd_toEndOf="@+id/bgCovid"
+            app:layout_constraintStart_toStartOf="@+id/bgCovid"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/open_sans"
+            android:text="For more information:"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imgMoreCovidInfo"
+            app:layout_constraintEnd_toStartOf="@+id/imgMoreCovidInfo"
+            app:layout_constraintTop_toTopOf="@+id/imgMoreCovidInfo" />
+
+        <ImageView
+            android:id="@+id/imgMoreCovidInfo"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/bgCovid"
+            app:layout_constraintEnd_toEndOf="@+id/bgCovid"
+            app:srcCompat="@drawable/worldmeter_icon" />
+
+        <ImageView
+            android:id="@+id/bgFunction"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/gradient_color_4"
+            app:layout_constraintBottom_toTopOf="@+id/bgHealthTips"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bgCovid" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Function"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/bgFunction"
+            app:layout_constraintTop_toTopOf="@+id/bgFunction" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btnAppointment"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/main_function_appointment"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/btnHistory"
+            app:layout_constraintStart_toStartOf="@+id/btnHistory"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Appointment"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnAppointment"
+            app:layout_constraintStart_toStartOf="@+id/btnAppointment"
+            app:layout_constraintTop_toBottomOf="@+id/btnAppointment" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btnHistory"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/main_function_history"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/bgFunction"
+            app:layout_constraintStart_toStartOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/open_sans"
+            android:text="History"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnHistory"
+            app:layout_constraintStart_toStartOf="@+id/btnHistory"
+            app:layout_constraintTop_toBottomOf="@+id/btnHistory" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btnProfile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/main_function_profile"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnHistory"
+            app:layout_constraintEnd_toEndOf="@+id/btnDoctor"
+            app:layout_constraintStart_toStartOf="@+id/btnDoctor"
+            app:layout_constraintTop_toTopOf="@+id/btnHistory" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Profile"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnProfile"
+            app:layout_constraintStart_toStartOf="@+id/btnProfile"
+            app:layout_constraintTop_toBottomOf="@+id/btnProfile" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btnDoctor"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/main_function_doctor"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnAppointment"
+            app:layout_constraintEnd_toStartOf="@+id/btnReloadMoney"
+            app:layout_constraintStart_toEndOf="@+id/btnAppointment"
+            app:layout_constraintTop_toTopOf="@+id/btnAppointment" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Doctor"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnDoctor"
+            app:layout_constraintStart_toStartOf="@+id/btnDoctor"
+            app:layout_constraintTop_toBottomOf="@+id/btnDoctor" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btnReloadMoney"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="32dp"
+            android:src="@drawable/main_function_reload"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnAppointment"
+            app:layout_constraintEnd_toEndOf="@+id/bgFunction"
+            app:layout_constraintTop_toTopOf="@+id/btnAppointment" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Reload money"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnReloadMoney"
+            app:layout_constraintStart_toStartOf="@+id/btnReloadMoney"
+            app:layout_constraintTop_toBottomOf="@+id/btnReloadMoney" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/btnLogout"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/main_function_logout"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/btnProfile"
+            app:layout_constraintEnd_toEndOf="@+id/btnReloadMoney"
+            app:layout_constraintStart_toStartOf="@+id/btnReloadMoney"
+            app:layout_constraintTop_toTopOf="@+id/btnProfile" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Logout"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/btnLogout"
+            app:layout_constraintStart_toStartOf="@+id/btnLogout"
+            app:layout_constraintTop_toBottomOf="@+id/btnLogout" />
+
+
+        <ImageView
+            android:id="@+id/bgHealthTips"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/gradient_color_2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Read more"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/bgHealthTips"
+            app:layout_constraintTop_toTopOf="@+id/bgHealthTips" />
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/fadingHealthTips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/cookie"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView6"
+            app:layout_constraintEnd_toEndOf="@+id/bgHealthTips"
+            app:layout_constraintStart_toStartOf="@+id/bgHealthTips"
+            app:layout_constraintTop_toBottomOf="@+id/textView21"
+            app:texts="@array/health_tips"
+            app:timeout="1000" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/bgHealthTips"
+            app:layout_constraintEnd_toEndOf="@+id/bgHealthTips"
+            app:srcCompat="@drawable/google_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/homeNavigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header_customer"
+        app:menu="@menu/navigation_menu" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

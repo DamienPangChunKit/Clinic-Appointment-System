@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_address_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_calendar_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_checkup_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_drop_down_list.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_drop_down_list_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_drop_down_list_3.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_email_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_input.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_lock_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_main_appointment.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_message_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_money_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_name_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_phone_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_symptom_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/custom_time_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/gradient_color_1.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/gradient_color_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/gradient_color_3.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/gradient_color_4.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_about_us.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_account.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_address.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_address_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_appointment.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_calendar.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_calendar_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_checkup.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_checkup_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_contact_us.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_contact_us_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_gender.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_lock.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_lock_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_logout.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_mail_status.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_medical_report.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_message.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_message_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_money.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_money_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_name.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_name_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_phone.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_phone_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_report.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_symptom.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_symptom_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_time.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_time_focused.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/ic_title.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/main_function_circle_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/recycler_border.xml" value="0.25625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/recycler_border_2.xml" value="0.25625" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/red_to_white_color.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_add_admin.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_admin_appointment.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_admin_appointment_details.xml" value="0.3851617995264404" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_admin_homepage.xml" value="0.42397914856646396" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_admin_mail.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_admin_mail_details.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_appointment.xml" value="0.37251908396946565" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_appointment_details.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_change_password.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_edit_admin_profile.xml" value="0.36445108289768485" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_edit_profile.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_forget_password.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_history.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_homepage.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_manage_admin.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_medical_report.xml" value="0.536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_my_admin_profile.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_navigation_about_us.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_navigation_contact_us.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_navigation_doctor.xml" value="0.44323342415985467" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_navigation_report.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_profile.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_register.xml" value="0.38214565387627253" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_reload_money.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/activity_testing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/admin_appointment_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/admin_homepage_item.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/app_bar_testing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/appointment_admin_appointment_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/appointment_history_item.xml" value="0.48990825688073397" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/content_testing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/custom_delete_myadmin.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/custom_drop_down_spinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/custom_radio_disapprove.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/custom_spinner.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/dialog_singlechoice.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/disapprove_checkbox.xml" value="0.39487179487179486" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/manage_admin_item.xml" value="0.264" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/manage_mail_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/nav_header_admin.xml" value="0.4" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/nav_header_testing.xml" value="0.536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/spinner_doctor.xml" value="0.6" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/spinner_role.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/spinner_text.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/layout/spinner_title.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/menu/navigation_admin.xml" value="0.536" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/menu/navigation_menu.xml" value="0.8" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/mipmap-mdpi/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/ClinicAppointmentSystems/app/src/main/res/mipmap-xhdpi/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/User/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_dropdown_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/User/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_spinner_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

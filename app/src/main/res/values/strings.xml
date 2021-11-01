@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">CheckFast</string>
+    <!--to toggle the open close button
+        of the navigation drawer-->
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_activity_testing">testing</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="open_hours"><u>Open Hours</u></string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="disapprove1">Information input was incorrect or not details, please make sure all information input properly!</string>
+    <string name="disapprove2">Symptoms or others cases are different compare to other common illness, please contact our admin for new appointment!</string>
+    <string name="disapprove3">Other patient appointment take longer duration for medical treatment due to special cases, please contact our admin for new appointment!</string>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="doctor">
+        <item>Dr.Damien</item>
+        <item>Dr.Koh</item>
+    </string-array>
+
+    <string-array name="title">
+        <item>UI Improvement</item>
+        <item>Apps Functionality</item>
+        <item>Services</item>
+        <item>Information Provided</item>
+        <item>Security</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="startNum">540</string>
+    <string name="endNum">545</string>
+
+    <string-array name="admin_role">
+        <item>Administrative Medical Assistant</item>
+        <item>Medical Records Specialist</item>
+        <item>Medical Billing Specialist</item>
+        <item>Scheduler</item>
+        <item>Cleaner</item>
+        <item>Security Guard</item>
+    </string-array>
+
+    <string name="Medical_Report_Title"><u>Medical Report</u></string>
+
+</resources>

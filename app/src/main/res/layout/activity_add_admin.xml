@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color_1"
+    tools:context=".AddAdmin">
+
+    <ImageView
+        android:id="@+id/RegisterBGColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_drop_down_list_3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Add admin"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#B6DFFF"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toTopOf="@+id/RegisterBGColor" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_name_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Username"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/open_sans"
+        android:background="@drawable/custom_drop_down_list"
+        app:layout_constraintStart_toStartOf="@+id/editTextUsername"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsername" />
+
+    <Button
+        android:id="@+id/btnBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Date of Birth"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerGender"
+        app:layout_constraintEnd_toEndOf="@+id/editTextUsername"
+        app:layout_constraintTop_toTopOf="@+id/spinnerGender" />
+
+    <Spinner
+        android:id="@+id/spinnerRole"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_drop_down_list"
+        android:fontFamily="@font/open_sans"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGender" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_address_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:maxLines="3"
+        android:minLines="3"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRole" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_phone_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAddress" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_email_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Email"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_lock_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:text="Add admin"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/RegisterBGColor"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextPassword" />
+
+    <ProgressBar
+        android:id="@+id/registerProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <ImageView
+        android:id="@+id/RegisterBGColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FAC7C7"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/open_sans"
+        android:text="Edit Profile"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toTopOf="@+id/RegisterBGColor" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_name_icon"
+        android:drawablePadding="10dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:hint="Username"
+        android:textSize="15dp"
+        android:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="@font/open_sans"
+        android:background="@drawable/custom_drop_down_list"
+        app:layout_constraintStart_toStartOf="@+id/editTextUsername"
+        app:layout_constraintTop_toBottomOf="@+id/editTextUsername" />
+
+    <Button
+        android:id="@+id/btnBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerGender"
+        app:layout_constraintEnd_toEndOf="@+id/editTextUsername"
+        app:layout_constraintTop_toTopOf="@+id/spinnerGender" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_address_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Address"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15dp"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:minLines="3"
+        android:maxLines="3"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerGender" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/custom_phone_icon"
+        android:fontFamily="@font/open_sans"
+        android:hint="Phone number"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="15dp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAddress" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_email_icon"
+        android:drawablePadding="10dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:hint="Email"
+        android:textSize="15dp"
+        android:fontFamily="@font/open_sans"
+        app:layout_constraintEnd_toEndOf="@+id/RegisterBGColor"
+        app:layout_constraintStart_toStartOf="@+id/RegisterBGColor"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <Button
+        android:id="@+id/btnConfirmEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:text="Confirm"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/RegisterBGColor"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
+        app:layout_constraintStart_toStartOf="@+id/editTextEmail" />
+
+    <ProgressBar
+        android:id="@+id/editProfileProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

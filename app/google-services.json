@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "119443658789",
+    "firebase_url": "https://clinic-appointment-syste-9137d-default-rtdb.firebaseio.com/",
+    "project_id": "clinic-appointment-syste-9137d",
+    "storage_bucket": "clinic-appointment-syste-9137d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119443658789:android:a1e935104737a607e687cc",
+        "android_client_info": {
+          "package_name": "com.example.clinicappointmentsystems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119443658789-elmm30fil36e8mfqllbteb7r46klbv9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdE3QzIT6ctpu9qqlOJDLBvNp0Jw5TCk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119443658789-elmm30fil36e8mfqllbteb7r46klbv9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

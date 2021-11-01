@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="health_tips">
+        <item>Click here</item>
+        <item>for more</item>
+        <item>Health Tips</item>
+    </string-array>
+
+    <string-array name="appointment_note">
+        <item>Please fill in information relate to the patient!</item>
+    </string-array>
+
+    <string-array name="deposit_required">
+        <item>RM 50 deposit is required to make appointment, please make sure you have enough balance in your account!</item>
+    </string-array>
+
+    <string-array name="otp_warning">
+        <item>OTP is required to reload money, please make sure your phone number is correct!</item>
+    </string-array>
+
+    <string-array name="max_reload_warning">
+        <item>Maximum of 5 time can be reload for each day, please input all the field carefully!</item>
+    </string-array>
+
+    <string-array name="appointment_details_payment">
+        <item>Your payment has been</item>
+    </string-array>
+
+    <string-array name="email_warning">
+        <item>Changes in email need to verify again in order to login, please make sure that email input is correct!</item>
+    </string-array>
+
+    <string-array name="email_warning_2">
+        <item>Please input an existed Email in order to verify your account!</item>
+    </string-array>
+
+</resources>

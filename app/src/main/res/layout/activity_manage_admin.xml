@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color_4"
+    tools:context=".ManageAdmin">
+
+    <ImageView
+        android:id="@+id/backgroundColor2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_drop_down_list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans"
+        android:text="History"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundColor2"
+        app:layout_constraintStart_toStartOf="@+id/backgroundColor2"
+        app:layout_constraintTop_toTopOf="@+id/backgroundColor2" />
+
+    <SearchView
+        android:id="@+id/search_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/custom_input"
+        android:layoutDirection="rtl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMyAdminProfile" />
+
+    <ImageView
+        android:id="@+id/imgDeleteMyAdmin"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gradient_color_2"
+        android:src="@drawable/ic_delete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imgAddAdmin"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/gradient_color_2"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="@+id/imgDeleteMyAdmin"
+        app:layout_constraintStart_toEndOf="@+id/imgDeleteMyAdmin"
+        app:layout_constraintTop_toTopOf="@+id/imgDeleteMyAdmin" />
+
+    <Button
+        android:id="@+id/btnMyAdminProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:text="my profile"
+        app:layout_constraintBottom_toBottomOf="@+id/imgDeleteMyAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgDeleteMyAdmin" />
+
+    <TableLayout
+        android:id="@+id/layout_table_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_admin"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvNo"
+                android:layout_width="20dp"
+                android:background="@drawable/recycler_border"
+                android:padding="8dp"
+                android:text="No"
+                android:textSize="15dp"
+                android:fontFamily="@font/open_sans"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="100dp"
+                android:background="@drawable/recycler_border"
+                android:padding="8dp"
+                android:text="Username"
+                android:textSize="15dp"
+                android:fontFamily="@font/open_sans"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRole"
+                android:layout_width="50dp"
+                android:background="@drawable/recycler_border"
+                android:padding="8dp"
+                android:text="Role"
+                android:textSize="15dp"
+                android:fontFamily="@font/open_sans"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAction"
+                android:layout_width="50dp"
+                android:background="@drawable/recycler_border"
+                android:padding="8dp"
+                android:text="Action"
+                android:textSize="15dp"
+                android:fontFamily="@font/open_sans"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerManageAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:background="@drawable/custom_drop_down_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layout_table_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

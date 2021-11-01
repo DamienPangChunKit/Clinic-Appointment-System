@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color_1"
+    tools:context=".Appointment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/backgroundColor2"
+            android:layout_width="match_parent"
+            android:layout_height="1216dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_drop_down_list"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textColor="#FF0000"
+            android:textSize="12dp"
+            android:fontFamily="@font/open_sans"
+            app:texts="@array/appointment_note"
+            app:timeout="1000"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Appointment"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/backgroundColor2"
+            app:layout_constraintStart_toStartOf="@+id/backgroundColor2"
+            app:layout_constraintTop_toTopOf="@+id/backgroundColor2" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Name"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/open_sans"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_name_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="First"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/textView35"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/custom_name_icon"
+            android:drawablePadding="10dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:hint="Last"
+            android:textSize="15dp"
+            android:fontFamily="@font/open_sans"
+            app:layout_constraintStart_toStartOf="@+id/editTextFirstName"
+            app:layout_constraintTop_toBottomOf="@+id/editTextFirstName" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Gender"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView35"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLastName" />
+
+        <Spinner
+            android:id="@+id/spinnerGender"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:background="@drawable/custom_drop_down_list"
+            android:fontFamily="@font/open_sans"
+            app:layout_constraintStart_toStartOf="@+id/textView36"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Phone"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView36"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerGender" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_phone_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Phone number"
+            android:inputType="number"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/textView37"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Date of Birth"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView37"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+        <EditText
+            android:id="@+id/editTextDateBirth"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_calendar_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Date of Birth"
+            android:inputType="number"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            android:focusableInTouchMode="true"
+            android:cursorVisible="false"
+            android:focusable="false"
+            app:layout_constraintStart_toStartOf="@+id/textView38"
+            app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Address"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView38"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDateBirth" />
+
+        <EditText
+            android:id="@+id/editTextStreetAddress"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_address_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Street Address"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/textView39"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <EditText
+            android:id="@+id/editTextPostcode"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_address_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Postcode"
+            android:inputType="number"
+            android:maxLength="5"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextStreetAddress" />
+
+        <EditText
+            android:id="@+id/editTextCity"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_address_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="City"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextPostcode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/editTextPostcode" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Email"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView39"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPostcode" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_email_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Email"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="@+id/textView40"
+            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Describe your current symptoms"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView40"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+        <EditText
+            android:id="@+id/editTextSymptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_symptom_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Symptoms"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:minLines="5"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            app:layout_constraintStart_toStartOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Others (example eye checkup)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView42"
+            app:layout_constraintTop_toBottomOf="@+id/editTextSymptoms" />
+
+        <EditText
+            android:id="@+id/editTextOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_checkup_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Others"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:minLines="5"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            app:layout_constraintStart_toStartOf="@+id/textView44"
+            app:layout_constraintTop_toBottomOf="@+id/textView44" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Appointment Date and Time"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView44"
+            app:layout_constraintTop_toBottomOf="@+id/editTextOther" />
+
+        <EditText
+            android:id="@+id/editTextAppointmentDate"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/custom_input"
+            android:cursorVisible="false"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_calendar_icon"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:fontFamily="@font/open_sans"
+            android:hint="Date"
+            android:inputType="number"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+        <EditText
+            android:id="@+id/editTextAppointmentTime"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/custom_time_icon"
+            android:fontFamily="@font/open_sans"
+            android:hint="Time"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:textSize="15dp"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextAppointmentDate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/editTextAppointmentDate" />
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/open_sans"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="12dp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.596"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextAppointmentDate"
+            app:texts="@array/deposit_required"
+            app:timeout="1000" />
+
+        <Button
+            android:id="@+id/btnMakeAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="5dp"
+            android:text="Send"
+            app:layout_constraintEnd_toStartOf="@+id/backgroundColor2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+        <ProgressBar
+            android:id="@+id/appointmentProgressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
