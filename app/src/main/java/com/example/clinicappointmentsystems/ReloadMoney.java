@@ -70,6 +70,14 @@ public class ReloadMoney extends AppCompatActivity {
             etAmount.setError("This field cannot be empty!");
             etAmount.requestFocus();
             return;
+        } else if (Integer.parseInt(amountInput) < 10){
+            etAmount.setError("Please input amount at least RM10!");
+            etAmount.requestFocus();
+            return;
+        } else if (Integer.parseInt(amountInput) > 1000){
+            etAmount.setError("Please input amount at most RM1000!");
+            etAmount.requestFocus();
+            return;
         } else {
             etAmount.setError(null);
         }

@@ -48,6 +48,8 @@ public class ChangePassword extends AppCompatActivity {
         Intent i = getIntent();
         userID = i.getStringExtra("userID");
 
+        loadDatabase(userID);
+
         etPassword = (EditText) findViewById(R.id.editTextPassword);
         etNewPassword = (EditText) findViewById(R.id.editTextNewPassword);
         etConfirmPassword = (EditText) findViewById(R.id.editTextConfirmPassword);
@@ -60,6 +62,25 @@ public class ChangePassword extends AppCompatActivity {
         });
 
         changePasswordProgressBar = (ProgressBar) findViewById(R.id.changePasswordProgressBar);
+    }
+
+    private void loadDatabase(String userID) {
+        mReference = FirebaseDatabase.getInstance().getReference("Users");
+        mReference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                User userProfile = snapshot.getValue(User.class);
+
+                if (userProfile != null) {
+                    password = userProfile.password;
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(ChangePassword.this, "Information was not retrieved from database!", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void changePassword() {
@@ -111,24 +132,6 @@ public class ChangePassword extends AppCompatActivity {
             etConfirmPassword.setError(null);
         }
 
-
-        mReference = FirebaseDatabase.getInstance().getReference("Users");
-        mReference.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                User userProfile = snapshot.getValue(User.class);
-
-                if (userProfile != null) {
-                    password = userProfile.password;
-                }
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(ChangePassword.this, "Information was not retrieved from database!", Toast.LENGTH_SHORT).show();
-            }
-        });
-
         if (!passwordInput.equals(password)) {
             etPassword.setError("Password input incorrect!");
             etPassword.requestFocus();
@@ -145,6 +148,7 @@ public class ChangePassword extends AppCompatActivity {
 
                     Toast.makeText(ChangePassword.this, "Change password successfully!", Toast.LENGTH_SHORT).show();
                     changePasswordProgressBar.setVisibility(View.GONE);
+                    finish();
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
